@@ -1,7 +1,10 @@
 const create_sample = require("..")
 
-const input1 = create_sample()
-const input2 = create_sample()
+const opt1 = { min: 1, max: 150 } 
+const opt2 = { min: 1872, max: 2022 }
+
+const input1 = create_sample(opt1)
+const input2 = create_sample(opt2)
 
 const Title = "Crystals International Football Academy Form."
 const Subtitle = "Please fill out the forms"
