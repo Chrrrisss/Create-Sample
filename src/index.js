@@ -5,7 +5,7 @@ const theme = fetch_theme()
 sheet.replaceSync(theme)
 
 function create_sample (opt) {
-    const { min, max } = opt
+    const { min = 0, max= 1000 } = opt
     const el = document.createElement("div")
     const shadow = el.attachShadow({ mode: "closed" })
     

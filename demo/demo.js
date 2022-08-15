@@ -1,4 +1,4 @@
-const create_sample = require("..")
+const create_sample = require("create-sample-11")
 
 const opt1 = { min: 1, max: 150 } 
 const opt2 = { min: 1872, max: 2022 }
